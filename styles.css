@@ -1,0 +1,59 @@
+body
+{
+    background-color:rgb(188, 222, 245);
+}
+
+nav
+{
+     float: left;
+    width:20%;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: rgb(246, 252, 167);
+    font-size:150%;
+        
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: pink;
+}
+
+li a
+{
+    display: block;
+    width: 150px;
+}
+
+li a:hover
+{
+    background-color:plum;
+    color:lightblue;
+}
+
+h1
+{
+    color:rgb(255, 255, 255);
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+h2
+{
+    color:black;
+    background-color: rgb(79, 79, 236);
+    text-align: center;
+}
+
+#Introduction
+{
+    color: rgb(0, 0, 0);
+    background-color: cornflowerblue;
+    padding: 20px;
+    font-size: 20px;
+}
