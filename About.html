@@ -3,6 +3,16 @@
   <head>
     <link rel="stylesheet" href="styles.css">
     <title>Monster Hunter world about page</title>
+
+    <script>
+      function validateForm() {
+        var x = document.forms["emailForm"]["Email address"].value;
+        if (x == "" || x == null) {
+          alert("Email must be filled out");
+          return false;
+        }
+      }
+      </script>
   </head>
 
   <body>
@@ -40,7 +50,7 @@
       we will keep you up to date with the latest Monster Hunter World news
     </p>
 
-    <form action = "/lol.com">
+    <form name = emailForm form action = "/lol.com" onsubmit="return validateForm()" method="post" required>
       <label for = "form" id = "form">Email address:</label><br>
       <input type = "text" id = "form" name = "Email address"><br>
       <input type = "submit" id = "submit" value = submit> 
