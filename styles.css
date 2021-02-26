@@ -23,8 +23,8 @@ ul
 {
     list-style-type: none;
     padding: 5px;
-    height: 50%;
-    background-color: rgb(104, 104, 104);
+    height: 20%;
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
 }
 
@@ -35,11 +35,6 @@ li a
     border-bottom: 1px solid black;
 }
 
-li a:active
-{
-    background-color: black;
-    color: white;
-}
 li a:hover
 {
     background-color:plum;
@@ -121,4 +116,14 @@ h2
 #submit
 {
     margin-left: 23%
+}
+
+#Links a:link
+{
+    color:#9494FF;
+}
+
+#Links a:visited
+{
+    color: #999999;
 }
